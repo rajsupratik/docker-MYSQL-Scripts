@@ -22,11 +22,14 @@ Creates a new database.
 ### 4. `dmysql-import-database`
 Imports a database into the MySQL Server.
 
+dmysql-server (Start a new MySQL Server)
+dmysql (Open the mysql cli)
+dmysql-create-database (Creates a new database)
+dmysql-import-database (Imports a database)
 ---
 
 ## Installation
 
-1. Clone or download this project:
-   ```bash
-   git clone https://github.com/your-username/dockerized-mysql-utils.git
-   cd dockerized-mysql-utils
+$ cd directory_with_scripts
+$ sudo chmod +x dmysql*
+$ sudo cp dmysql* /usr/local/bin
